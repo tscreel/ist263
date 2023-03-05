@@ -8,4 +8,5 @@ p {color: #BD8894
 }
 .navbar-nav>.active>a {
     background-color: #F5E8BA;
+    color: #CCA1AA;
 }

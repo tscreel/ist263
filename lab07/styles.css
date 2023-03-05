@@ -7,7 +7,9 @@ a {
 }
 p {color: #BD8894
 }
-.navbar-nav>.active>a {
+nav {
     background-color: #F5E8BA;
     color: #CCA1AA;
 }
+nav a {color: #F5C9BA;}
+nav a:hover {background-color: #F5C9BA;}

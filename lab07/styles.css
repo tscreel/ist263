@@ -5,11 +5,10 @@ body{font-family: Helvetica, Arial, sans-serif;
 a {
     color:#856367
 }
-p {color: #BD8894
+text {color: #BD8894
 }
 nav {
     background-color: #F5E8BA;
-    color: #CCA1AA;
     padding: 10px;
     margin-bottom: 30px;
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Contact</h1>
+        <p> Taylor Creel<br> 22 Barney Avenue<br> Rehoboth Ma <br> 02769</p>
+        <a href="mailto:tscreel@syr.edu">Taylor Creel Email</a> <br>
+        <img src="../images/logo-sized.png" alt="LinkedIn">
+        <a href="https://www.linkedin.com/in/taylorscoutcreel/" target="_blank">My LinkedIn Profile</a> <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.0861478881534!2d-76.13084630000004!3d43.03961890000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3754c82b97b%3A0xa1a5eec56ddb8a56!2sWatson%20hall%2C%20405%20University%20Pl%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1675347540110!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form action="https://formspree.io/f/mjvdywpy" method="post">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <br>
+            <label for="message">Message:</label>
+            <br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            <br>
+            <input type="radio" id="pickup1" name="pickup" value="pickup">
+            <label for="pickup1">comment</label>
+            <input type="radio" id="pickup2" name="pickup" value="question">
+            <label for="pickup2">question</label>
+            <input type="radio" id="pickup3" name="pickup" value="delivery">
+            <label for="pickup3">concern</label>
+            <br>
+            <input type="submit" value="Contact Me">
+        </form>
+    </body>

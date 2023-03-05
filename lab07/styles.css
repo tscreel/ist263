@@ -10,15 +10,12 @@ p {color: #BD8894
 nav {
     background-color: #F5E8BA;
     color: #CCA1AA;
-}
-nav a {color: #CCA1AA;}
-nav a:hover {background-color: #F5C9BA;}
-nav {
     padding: 10px;
     margin-bottom: 30px;
 }
+nav a {color: #CCA1AA;}
+nav a:hover {background-color: #F5C9BA;}
 ul {color: #BD8894;}
 table {
    color: #BD8894;
   }
-  

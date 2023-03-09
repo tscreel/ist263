@@ -1,0 +1,20 @@
+h1 {color: #FFA5A1;}
+h2 {color: #BD8894}
+body{font-family: Helvetica, Arial, sans-serif;
+    background-color:#F2C8AE}
+a {
+    color:#856367
+}
+p {color: #BD8894
+}
+nav {
+    background-color: #F5E8BA;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a {color: #CCA1AA;}
+nav a:hover {background-color: #F5C9BA;}
+ul {color: #BD8894;}
+table {
+   color: #BD8894;
+  }

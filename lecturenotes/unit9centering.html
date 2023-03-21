@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centering</title>
+    <style>
+        p {
+            text-align: center;
+        }
+        .bluebackground {background-color: cornflowerblue;}
+        /* doesnt work without a width, margin 0 auto means 0 on top nad bottom, equal space on left and right */
+        div { width: 50%; margin: 0 auto; padding: 15px;}
+        section {border: 2px dashed black;
+        display: flex;
+        justify-content: center;}
+    </style>
+ </head>
+ <body>
+    <h1 class="bluebackground">Centering</h1>
+    <h2>Centering Text</h2>
+    <p> 
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum veritatis praesentium cupiditate, nisi repudiandae nulla quod quo dolor cum, adipisci dolores neque eveniet aliquam vero nostrum. Sit laudantium cupiditate autem.
+
+    </p>
+    <h2>Centering Block Level Items</h2>
+    <div class="bluebackground"> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repellendus earum inventore. Atque, tenetur ut enim cum, modi laborum consequuntur nam sapiente cupiditate eum et non! Facere quibusdam harum quos!
+    </div>
+    <h2>Flexbox Centering Hack</h2>
+    <section> this is flex centering!<br> <img src="../images/ottotheorange.jpeg"> </section>
+ </body>
+ </html>

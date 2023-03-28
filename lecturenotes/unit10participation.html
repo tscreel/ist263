@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- #1 technique for responsive design - don't fit page to device-->
+        <title>Unit 10 Participation</title>
+        <style>
+            body {font-family: Arial, Helvetica, sans-serif;}
+            @media only screen and (max-width: 600px) 
+            {body {background-color: white;} 
+             .large {display: none;}} /* takes an element off screen */
+            @media only screen and (min-width: 601px)
+            {.small {display: none;}}
+            /* #4 media queries - change styling for different size */
+            </style>
+    </head>
+    <body>
+        <h2 class="large"> I'M LARGE </h2>
+        <h2 class="small"> i'm small</h2>
+    </body>

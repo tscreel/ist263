@@ -24,5 +24,5 @@ table {
 .imagetaylor {max-width: 100%;}
 @media only screen and (max-width: 600px) 
             {   span {display: none;}
-                nav a {display:none;}} 
+                nav a {display:block;}} 
             

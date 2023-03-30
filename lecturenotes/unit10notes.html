@@ -19,8 +19,13 @@
             .row1 div {flex: 1;}
             p {width: 30%;}
             /* #3 wrapping flexboxes */
-            @media only screen and (max-width: 800px) {body {background-color: orange;} }
-        </style>
+            @media only screen and (max-width: 800px) 
+            {body {background-color: orange;} 
+             .banner {display: none;}} /* takes an element off screen */
+            @media only screen and (min-width: 801px)
+            {.bannersmall {display: none;}}
+            /* #4 media queries - change styling for different size */
+            </style>
     </head>
     <body>
 

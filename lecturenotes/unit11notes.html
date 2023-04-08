@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesibility</title>
+    <style>
+        .skip{
+            background-color: orange;
+            padding: 5px;
+            border: 1px solid black;
+            text-decoration: none; 
+            position: absolute;
+            left: -999px;
+            top: 30px;
+        }
+        .skip:focus {
+            left: 10px;
+        }
+    </style>
+    <!-- text-decoration gets rid of underline on link-->
+</head>
+<body>
+    <section>
+        <a href="#main" class="skip" tabindex="1"> Skip to Content</a> <br> <!-- book mark tag take you somehwere on the page--> <!-- text-decoration gets rid of underline-->
+        <a href="http://www.syr.edu" tabindex="2">syr.edu</a> <br>
+        <a href="http://www.ischool.syr.edu" tabindex="4">iSchool</a> <br>
+        <a href="http://www.soe.syr.edu" tabindex="3">SOE</a>
+    </section>
+    <section>
+        <h1>About Syracuse</h1>
+        <p id="main"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat facere provident pariatur sint, mollitia suscipit temporibus voluptatem tenetur ex! Iste officiis voluptates reprehenderit odio ipsum vel modi, magni praesentium recusandae.</p>
+    </section>
+</body>
+</html>

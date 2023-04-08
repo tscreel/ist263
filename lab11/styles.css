@@ -12,11 +12,11 @@ nav {
     padding: 10px;
     margin-bottom: 30px;
 }
-nav a {color: #CCA1AA;}
-nav a:hover {background-color: #F5C9BA;}
-ul {color: #BD8894;}
+nav a {color: #bd5068;}
+nav a:hover {background-color: #986d5f;}
+ul {color: #6A3943;}
 table {
-   color: #BD8894;
+   color: #9b344c;
   }
 .img1 {float: left; margin-right: 10px;}
 .quote {float:right}

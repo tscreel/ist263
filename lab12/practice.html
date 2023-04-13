@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab11</title>
+    <title>Lab11 Alert</title>
     <script>
         function WinnerMessage() {
             alert ('You won!');
@@ -14,22 +14,15 @@
         }
     </script>
     <style>
-        .container {
-            display: flex;
-        }
-        #first {order:1;}
-        #second {order:2;}
-        #third {order:3;}
 
     </style>
 </head>
-<body onload="ShuffleShells();">
+<body>
     <h1>Choose a Walnut</h1>
 <div class="container">
-    <img src="https://laferger.github.io/ist263/images/walnut.jpg" id= first alt="first walnut" onclick="WinnerMessage();">
-    <img src="https://laferger.github.io/ist263/images/walnut.jpg"  id= second alt="second walnut" onclick="TryAgain();">
-    <img src="https://laferger.github.io/ist263/images/walnut.jpg"  id= third alt="third walnut" onclick="TryAgain();">
+    <img src="https://laferger.github.io/ist263/images/walnut.jpg"  alt="first walnut" onclick="WinnerMessage();">
+    <img src="https://laferger.github.io/ist263/images/walnut.jpg"  alt="second walnut" onclick="TryAgain();">
+    <img src="https://laferger.github.io/ist263/images/walnut.jpg"   alt="third walnut" onclick="TryAgain();">
 </div>
-    <div id="messages"></div>
 </body>
 </html>

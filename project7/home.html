@@ -7,9 +7,12 @@
     <title>Home</title>
 </head>
 <style>
-    h1 {font-family: Arial, Helvetica, sans-serif;text-align: center;}
-    body{font-family: Helvetica, Arial, sans-serif;text-align: center;}
+    h1 {font-family: Arial, Helvetica, sans-serif;text-align: center;font-size: xx-large;font-weight: 800;}
+    body{font-family: Helvetica, Arial, sans-serif;}
+    .subheading{text-align: center;font-size: large;}
+    .articles {display:flex;text-align: center;padding-right: 20px;justify-content: space-around; padding-bottom: 100px;}
     .nav1 {display: flex; justify-content: space-around;}
+    .decorative {padding-left: 162px;justify-content: space-around;}
 
 </style>
 <body>
@@ -19,21 +22,24 @@
        <div> <a href="https://tscreel.github.io/ist263/project5/eat.html">Eat</a>  </div>
        <div> <a href="https://tscreel.github.io/ist263/project5/aboutus.html">About Us</a> </div>
     </nav>
-    <h1><strong>THE VITAL</strong></h1>
-    <h2>a space for the hungry</h2>
-    <article>
-        <h1>Restaraunts for Foodies</h1>
+    <h1><strong>THE <br> VITAL</strong></h1>
+    <h2 class="subheading">a space for the hungry</h2>
+<section class="articles">
+    <div>
         <img src="../images/thenewbar.jpeg" alt="NewBar" width="200" height="90">
-    </article>
-    <article>
-        <h1>At Home Workouts</h1>
+    </div>
+    <div>
         <img src="../images/workout.jpeg" alt="Workout" width="200" height="90">
-    </article>
+    </div>
+</section>
+<section class="decorative">
     <img src="../images/lemon.jpeg" alt="lemon" width="200" height="90">
-    <h2>MIND AND BODY CARE FOR ALL</h2>
+    <h2>MIND AND BODY <br> CARE FOR ALL</h2>
     <img src="../images/facemask.jpeg" alt="facemask" width="200" height="90">
+</section>
+<section> 
     <hr>
-    <p> OUR VALUES </p>
+    <p > OUR VALUES </p>
     <hr>
     <p>01 LOREM IPSUM DOLOR</p>
     <hr>
@@ -41,6 +47,7 @@
     <hr>
     <p>03 LOREM IPSUM D</p>
     <hr>
+</section>
     <footer>
         <p>&copy; 2020</p>
     </footer>

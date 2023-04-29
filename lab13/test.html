@@ -23,6 +23,12 @@
    </style>
     <script>
 function PlanetsOff() {
+
+var planets = document.getElementsByClassName("planet-container");
+
+for (var i = 0; i < planets.length; i++) {
+  planets[i].style.display = "none";
+}
   document.getElementById('mercury').style.display = 'none';
   document.getElementById('mercuryinfo').style.display = 'none';
   document.getElementById('venus').style.display = 'none';

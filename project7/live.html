@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #f8f8f8;
@@ -47,7 +47,7 @@ nav a:hover {
 
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -61,28 +61,12 @@ nav a {
 }
 
 /* Header */
-header {
-  height: 500px;
-  background-image: url('https://source.unsplash.com/random/1600x500');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
 
 header h1 {
   font-size: 4rem;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   margin-bottom: 1rem;
  font-family: 'Bebas Neue', sans-serif;text-align: center
-}
-
-header p {
-  font-size: 1.5rem;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* Main Content */
@@ -144,19 +128,22 @@ section h2 {
 }
 
 /* Footer */
+/* Footer section styles */
 footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 footer p {
   font-size: 1.2rem;
+  opacity: 0.8;
 }
 img {
     max-width: 40%;
 }
+.subheading {justify-content: center;}
   </style>
 </head>
 <body>
@@ -170,10 +157,10 @@ img {
   </nav>
   
   <!-- Header section -->
-  <header>
-    <h1>Welcome to Our Wellness & Fitness Website</h1>
-    <p>Transform your body, mind, and soul with our expert guidance and resources.</p>
-  </header>
+
+    <h1>Live</h1>
+    <p class="subheading">Transform your body, mind, and soul with our expert guidance and resources.</p>
+  
   
   <!-- Main content section -->
   <main>
@@ -206,5 +193,8 @@ img {
         <p>"I can't thank the mental health team enough for the support and guidance they've provided me. I feel more resilient and empowered to tackle any challenge that comes my way." - Emily P.</p>
       </article>
     </section>
+    <footer>
+        <p>&copy; 2023 THE VITAL. All rights reserved.</p>
+      </footer>
 </body>
 </html>

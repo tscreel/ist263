@@ -99,9 +99,23 @@ a {color: black;}
         <!-- make a subscribe form here -->
     <div id="newsletter">
         <span class="close" onclick="closeModal();"> &times; <br></span>
-        Subscribe to  Newsletter
+        <strong>want to join the club? </strong>
         <form>
             email: <input type="text">
+        <br>
+        <label for="message">Message:</label>
+        <br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <br>
+        <label for="pickup">Sign Up For:</label>
+        <input type="radio" id="pickup1" name="pickup" value="pickup">
+        <label for="pickup1">emails</label>
+        <input type="radio" id="pickup2" name="pickup" value="question">
+        <label for="pickup2">newsletters</label>
+        <input type="radio" id="pickup3" name="pickup" value="delivery">
+        <label for="pickup3">both</label>
+        <br>
+        <input type="submit" value="Join Us">
         </form>
     </div>
 

@@ -1,0 +1,9 @@
+nav a:hover {
+    color: lightgrey;
+  }
+  a {color: black;}
+          a:visited {color: black;}
+h1 {font-family: 'Bebas Neue', sans-serif;text-align: center;font-size:900%;font-weight:900;}
+h2 {font-family: 'Anton', sans-serif;}
+body{font-family: Helvetica, Arial, sans-serif;}
+.nav1 {display: flex; justify-content: space-around;}

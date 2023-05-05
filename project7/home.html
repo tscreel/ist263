@@ -17,23 +17,23 @@
     color: lightgrey;
   }
   a {color: black;}
-          a:visited {color: black;}
+          a:visited {color: white;}
           nav {
   background-color: #333;
   padding: 1rem;
 }
 
-nav ul {
+ul li{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav li {
+ul li {
   margin-right: 1rem;
 }
 
-nav a {
+nav ul li a {
   color: black;
   font-size: 1.2rem;
 }
@@ -87,18 +87,26 @@ footer p {
   font-size: 1.2rem;
   opacity: 0.8;
 }
-ul li ul.dropdown li {
+nav ul li ul.dropdown li {
     display: block;
+    color: black;
+    background-color: #333;
 }
-ul li ul.dropdown {
+nav ul li ul.dropdown {
     width: 100%;
     position: absolute;
     z-index: 999;
     display: none;
+    color: black;
 }
-ul li:hover ul.dropdown {
+nav ul li:hover ul.dropdown {
     display: block;
+    padding-top: 150px;
 }
+@media only screen and (max-width: 600px) 
+{.articles .decorative max-width: 100%;}
+    @media only screen and (min-width: 601px)
+            {.articles .decorative max-width: 10%;}
     </style>
     <script>
         /* add code to open and close our subscribe form */
@@ -111,10 +119,14 @@ ul li:hover ul.dropdown {
     </script>
 </head>
 <body>
+<nav>
 <ul class="nav1">
        <li> <a href="https://tscreel.github.io/ist263/project7/home.html">Home</a> </li>
        <li> <a href="https://tscreel.github.io/ist263/project7/eat.html">Eat &#8964; </a>
             <ul class="dropdown">
+                <li>
+                    <a href="https://tscreel.github.io/ist263/project7/eat.html">Eat </a>
+                </li>
                 <li> 
                     <a href="https://tscreel.github.io/ist263/project7/recipeparm.html">Featured Recipe</a>
                 </li>
@@ -122,6 +134,7 @@ ul li:hover ul.dropdown {
         </li>
        <li> <a href="https://tscreel.github.io/ist263/project7/live.html">Live</a> </li>
 </ul>
+</nav>
     <hr>
     <h1>THE <br> VITAL</h1>
     <h2 class="subheading">a space for the hungry</h2>
@@ -134,7 +147,7 @@ ul li:hover ul.dropdown {
     </div>
     <div>
     <a href="https://tscreel.github.io/ist263/project7/live.html">
-        <img src="../images/workout.jpeg" alt="AtHomeWorkout" width="500" height="500">
+        <img  src="../images/workout.jpeg" alt="AtHomeWorkout" width="500" height="500">
     </a>
     <h2>At Home Workouts & Self Care </h2>
     </div>

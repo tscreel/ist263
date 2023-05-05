@@ -38,18 +38,42 @@ img {
 nav a:hover {
     color: lightgrey;
   }
+  a {color: black;}
+          a:visited {color: white;}
           nav {
   background-color: #333;
   padding: 1rem;
+}
+
+ul li{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
+ul li {
+  margin-right: 1rem;
+}
 
-nav a {
-  color: #fff;
+nav ul li a {
+  color: black;
   font-size: 1.2rem;
+}
+nav ul li ul.dropdown li {
+    display: block;
+    color: black;
+    background-color: #333;
+}
+nav ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    color: black;
+}
+nav ul li:hover ul.dropdown {
+    display: block;
+    padding-top: 150px;
 }
 
 /* Header section styles */
@@ -138,15 +162,27 @@ footer p {
   font-size: 1.2rem;
   opacity: 0.8;
 }
+
   </style>
 </head>
 <body>
     <!-- Navigation bar -->
     <nav>
-        <a href="https://tscreel.github.io/ist263/project7/home.html">Home</a> 
-        <a href="https://tscreel.github.io/ist263/project7/live.html">Live</a> 
-        <a href="https://tscreel.github.io/ist263/project7/eat.html">Eat</a>
-    </nav>
+      <ul class="nav1">
+             <li> <a href="https://tscreel.github.io/ist263/project7/home.html">Home</a> </li>
+             <li> <a href="https://tscreel.github.io/ist263/project7/eat.html">Eat &#8964; </a>
+                  <ul class="dropdown">
+                      <li>
+                          <a href="https://tscreel.github.io/ist263/project7/eat.html">Eat </a>
+                      </li>
+                      <li> 
+                          <a href="https://tscreel.github.io/ist263/project7/recipeparm.html">Featured Recipe</a>
+                      </li>
+                  </ul>
+              </li>
+             <li> <a href="https://tscreel.github.io/ist263/project7/live.html">Live</a> </li>
+      </ul>
+      </nav>
     
     <!-- Header section -->
     <main> 

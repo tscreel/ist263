@@ -17,7 +17,7 @@
     color: lightgrey;
   }
   a {color: black;}
-          a:visited {color: white;}
+          a:visited {color: black;}
           nav {
   background-color: #333;
   padding: 1rem;
@@ -34,7 +34,7 @@ nav li {
 }
 
 nav a {
-  color: #fff;
+  color: black;
   font-size: 1.2rem;
 }
 h1 {font-family: 'Bebas Neue', sans-serif;text-align: center;font-size:900%;font-weight:900;}
@@ -87,6 +87,18 @@ footer p {
   font-size: 1.2rem;
   opacity: 0.8;
 }
+ul li ul.dropdown li {
+    display: block;
+}
+ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
     </style>
     <script>
         /* add code to open and close our subscribe form */
@@ -99,11 +111,17 @@ footer p {
     </script>
 </head>
 <body>
-    <nav class="nav1">
-       <div> <a href="https://tscreel.github.io/ist263/project7/home.html">Home</a> </div>
-       <div> <a href="https://tscreel.github.io/ist263/project7/live.html">Live</a> </div>
-       <div> <a href="https://tscreel.github.io/ist263/project7/eat.html">Eat</a>  </div>
-    </nav>
+<ul class="nav1">
+       <li> <a href="https://tscreel.github.io/ist263/project7/home.html">Home</a> </li>
+       <li> <a href="https://tscreel.github.io/ist263/project7/eat.html">Eat &#8964; </a>
+            <ul class="dropdown">
+                <li> 
+                    <a href="https://tscreel.github.io/ist263/project7/recipeparm.html">Featured Recipe</a>
+                </li>
+            </ul>
+        </li>
+       <li> <a href="https://tscreel.github.io/ist263/project7/live.html">Live</a> </li>
+</ul>
     <hr>
     <h1>THE <br> VITAL</h1>
     <h2 class="subheading">a space for the hungry</h2>

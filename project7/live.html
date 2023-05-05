@@ -35,35 +35,30 @@ p {
 }
 
 /* Navigation */
-nav {
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
+nav a:hover {
+    color: lightgrey;
+  }
+  a {color: black;}
+          a:visited {color: white;}
+          nav {
+  background-color: #333;
+  padding: 1rem;
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  list-style: none;
-  padding: 1rem;
 }
 
 nav li {
   margin-right: 1rem;
 }
 
-nav a:hover {
-    color: lightgrey;
-  }
-  a {color: black;}
-          a:visited {color: black;}
-body{font-family: Helvetica, Arial, sans-serif;}
-.nav1 {display: flex; justify-content: space-around;}
+nav a {
+  color: #fff;
+  font-size: 1.2rem;
+}
 
 /* Header */
 header {

@@ -5,8 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>At Home Workouts</title>
+<style>
+    nav a:hover {
+    color: lightgrey;
+  }
+  a {color: black;}
+          a:visited {color: white;}
+          nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+ul li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li {
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 1.2rem;
+}
+nav ul li ul.dropdown li {
+    display: block;
+    color: black;
+    background-color: #333;
+}
+nav ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    color: black;
+}
+nav ul li:hover ul.dropdown {
+    display: block;
+    padding-top: 150px;
+}
+</style>
 </head>
 <body>
+    <nav>
+        <ul class="nav1">
+               <li> <a href="https://tscreel.github.io/ist263/project7/home.html">Home</a> </li>
+               <li> <a href="https://tscreel.github.io/ist263/project7/eat.html">Eat &#8964; </a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="https://tscreel.github.io/ist263/project7/eat.html">Eat </a>
+                        </li>
+                        <li> 
+                            <a href="https://tscreel.github.io/ist263/project7/recipeparm.html">Featured Recipe</a>
+                        </li>
+                    </ul>
+                </li>
+               <li> <a href="https://tscreel.github.io/ist263/project7/live.html">Live</a> </li>
+        </ul>
+        </nav>
     <h1>AT HOME WORKOUTS RECOMMENDATIONS</h1>
 
 Here are some at home workout recommendations, for when you don't want to leave your house to move your body.

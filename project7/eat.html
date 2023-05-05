@@ -1,41 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live</title>
-    <style>
-        nav a:hover {
-    color: lightgrey;
-  }
-  a {color: black;}
-          a:visited {color: black;}
-h1 {font-family: 'Bebas Neue', sans-serif;text-align: center;font-size:900%;font-weight:900;}
-h2 {font-family: 'Anton', sans-serif;}
-body{font-family: Helvetica, Arial, sans-serif;}
-.nav1 {display: flex; justify-content: space-between;padding-left: 50px;}
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EAT</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+/* Header section styles */
+header {
+  background-image: url('images/header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 4rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-size: 1.5rem;
+  color: #fff;
+  opacity: 0.8;
+}
+
+/* Main content section styles */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+article {
+  border: 1px solid #eee;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+article h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+article p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+article a {
+  background-color: lightgrey;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+ul li a:hover,
+article a:hover {
+  background-color: black;
+}
+
+/* Footer section styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+  </style>
 </head>
 <body>
-    <nav> 
+    <!-- Navigation bar -->
+    <nav>
         <a href="https://tscreel.github.io/ist263/project7/home.html">Home</a> 
         <a href="https://tscreel.github.io/ist263/project7/live.html">Live</a> 
-        <a href="https://tscreel.github.io/ist263/project7/eat.html">Eat</a> 
-        <a href="https://tscreel.github.io/ist263/project7/aboutus.html">About Us</a> 
+        <a href="https://tscreel.github.io/ist263/project7/eat.html">Eat</a>
     </nav>
-    <p> <strong>EAT</strong> </p>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sit error reiciendis corrupti, amet quod pariatur. Dolores fuga illo reprehenderit necessitatibus eligendi quas at magnam, quis omnis, nam nostrum qui. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam inventore beatae labore commodi minima, amet saepe earum maxime. Nulla natus cupiditate inventore porro libero tempore! Aperiam ducimus doloremque nihil ex? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, dicta nesciunt ea sit reprehenderit ut optio odit blanditiis eius voluptatum qui illum fugit, quis debitis accusantium. Laboriosam ullam qui ex!</p>
-    <hr>
-    <h2> 01 Lorem Ips</h2>
-    <h2> 02 Lorem Ipsum D</h2>
-    <h2> 03 Lorem Ipsum Dolor</h2>
-    <img src="../images/drinks.jpeg" alt="drinks">
-    <h1> 01 Lorem Ips:</h2>
-    <p> EAT      JUNE ADITION      VOLUME ONE</p>
-    <h2>Lorem Ipsum Dolor Sit Amet, Consadipisongelit. Nunc</h2>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptates aperiam eius reprehenderit, odio exercitationem debitis consequatur accusantium velit quisquam ipsum maiores molestiae laboriosam architecto doloribus saepe autem aut possimus!</p>
-
-</body>
+    
+    <!-- Header section -->
+    <main> 
+    <h1>Eat</h1>
+    <p>Discover delicious recipes and cooking tips from around the world.</p>
+      <section>
+        <h2>Featured Recipe</h2>
+        <article>
+          <h3>Chicken Parmesan</h3>
+          <img src="../images/chickenparm.jpeg" alt="Chicken Parmesan">
+          <p>This classic Italian dish is sure to impress your dinner guests. It's easy to make and packed with flavor.</p>
+          <a href="#">Get the Recipe</a>
+        </article>
+      </section>
+      
+      <section>
+        <h2>Popular Recipes</h2>
+        <ul>
+          <li><a href="#">Spaghetti Carbonara</a></li>
+          <li><a href="#">Tacos al Pastor</a></li>
+          <li><a href="#">Pad Thai</a></li>
+          <li><a href="#">Roast Beef</a></li>
+        </ul>
+      </section>
+      
+      <section>
+        <h2>Cooking Tips</h2>
+        <ol>
+          <li>Always use fresh ingredients.</li>
+          <li>Preheat your oven before baking.</li>
+          <li>Season your food properly.</li>
+          <li>Clean as you go.</li>
+        </ol>
+      </section>
+      
+      <!-- Photo page section -->
+      <section class="pics">
+        <h2>Photos</h2>
+        <div class="photo-gallery">
+          <div class="photo">
+            <img src="../images/pizza.jpeg" alt="pizza on table">
+            <p class="photo-caption">Delicious pizza with fresh ingredients.</p>
+          </div>
+          <div class="photo">
+            <img src="../images/sushi-box.jpeg" alt="Photo 2">
+            <p class="photo-caption">Mouth-watering sushi rolls.</p>
+          </div>
+          <div class="photo">
+            <img src="../images/salad.jpeg" alt="salad">
+            <p class="photo-caption">A refreshing salad with colorful vegetables.</p>
+          </div>
+          <div class="photo">
+            <img src="../images/chocolate-raspberry-cake-8.webp" alt="Photo 4">
+            <p class="photo-caption">A tempting chocolate cake with raspberries.</p>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+    
+    <!-- Footer section -->
+    <footer>
+      <p>&copy; 2023 THE VITAL. All rights reserved.</p>
+    </footer>
+  </body>
 </html>

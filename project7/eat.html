@@ -25,7 +25,7 @@ body {
 }
 
 a {
-  color: lightgray;
+  color: black;
   text-decoration: none;
 }
 
@@ -38,11 +38,15 @@ img {
 nav a:hover {
     color: lightgrey;
   }
-  a {color: white;}
+  a {color: black;}
           a:visited {color: white;}
-          nav {
+          a:hover {color: lightgray;}
+nav {
   background-color: #333;
   padding: 1rem;
+}
+.recipes a:visited {
+  color: darkred;
 }
 
 ul li{
@@ -200,7 +204,7 @@ footer p {
       
       <section>
         <h2>Popular Recipes</h2>
-        <ul>
+        <ul class="recipes">
           <li><a href="https://tscreel.github.io/ist263/project7/spagetti.html">Spaghetti Carbonara</a></li>
           <li><a href="https://tscreel.github.io/ist263/project7/tacos.html">Tacos al Pastor</a></li>
           <li><a href="https://tscreel.github.io/ist263/project7/padthai.html">Pad Thai</a></li>

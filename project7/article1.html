@@ -46,9 +46,22 @@ nav ul li:hover ul.dropdown {
     display: block;
     padding-top: 150px;
 }
+.skip{
+            background-color: lightgrey;
+            padding: 5px;
+            border: 1px solid black;
+            text-decoration: none; 
+            position: absolute;
+            left: -999px;
+            top: 30px;
+        }
+        .skip:focus {
+            left: 10px;
+        }
 </style>
 </head>
 <body>
+  <a href="#main" class="skip" tabindex="1"> Skip to Content</a> <br>
     <nav>
         <ul class="nav1">
                <li> <a href="https://tscreel.github.io/ist263/project7/home.html">Home</a> </li>

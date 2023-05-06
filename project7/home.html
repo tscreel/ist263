@@ -13,6 +13,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Vina+Sans&display=swap" rel="stylesheet">
     <title>Home</title>
     <style>
+        .skip{
+            background-color: lightgrey;
+            padding: 5px;
+            border: 1px solid black;
+            text-decoration: none; 
+            position: absolute;
+            left: -999px;
+            top: 30px;
+        }
+        .skip:focus {
+            left: 10px;
+        }
         nav a:hover {
     color: lightgrey;
   }
@@ -34,7 +46,7 @@ ul li {
 }
 
 nav ul li a {
-  color: black;
+  color: white;
   font-size: 1.2rem;
 }
 h1 {font-family: 'Bebas Neue', sans-serif;text-align: center;font-size:900%;font-weight:900;}
@@ -115,6 +127,7 @@ nav ul li:hover ul.dropdown {
     </script>
 </head>
 <body>
+    <a href="#main" class="skip" tabindex="1"> Skip to Content</a> <br>
 <nav>
 <ul class="nav1">
        <li> <a href="https://tscreel.github.io/ist263/project7/home.html">Home</a> </li>
